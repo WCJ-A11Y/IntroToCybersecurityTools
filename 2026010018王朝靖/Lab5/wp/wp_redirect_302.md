@@ -11,8 +11,8 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 环境地址 | http://challenge-f8f84b84138bb763.sandbox.ctfhub.com:10800 |
-| Flag | ctfhub{f2ba340a198e8e0449b2367e} |
+| 环境地址 | http://challenge-1b838011fd21b671.sandbox.ctfhub.com:10800 |
+| Flag | ctfhub{41beff83a7453436a4b33e45} |
 
 ## 解题过程
 
@@ -22,7 +22,7 @@
 
 ```http
 GET /index.php HTTP/1.1
-Host: challenge-f8f84b84138bb763.sandbox.ctfhub.com:10800
+Host: challenge-1b838011fd21b671.sandbox.ctfhub.com:10800
 User-Agent: curl/8.x
 
 HTTP/1.1 302 Moved Temporarily
@@ -30,7 +30,7 @@ Server: openresty/1.21.4.2
 Location: /index.html
 X-Powered-By: PHP/5.6.40
 
-ctfhub{f2ba340a198e8e0449b2367e}
+ctfhub{41beff83a7453436a4b33e45}
 ```
 
 ## 原理与复盘

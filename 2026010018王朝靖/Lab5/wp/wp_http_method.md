@@ -11,8 +11,8 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 环境地址 | http://challenge-60be9d05f388b9f9.sandbox.ctfhub.com:10800 |
-| Flag | ctfhub{d07f2637f17606dcc985129a} |
+| 环境地址 | http://challenge-9ffb6108cf2e3aae.sandbox.ctfhub.com:10800 |
+| Flag | ctfhub{8629ca73b815c43903728e01} |
 
 ## 解题过程
 
@@ -22,13 +22,13 @@
 
 ```http
 CTFHUB /index.php HTTP/1.1
-Host: challenge-60be9d05f388b9f9.sandbox.ctfhub.com:10800
+Host: challenge-9ffb6108cf2e3aae.sandbox.ctfhub.com:10800
 User-Agent: curl/8.x
 
 HTTP/1.1 200 OK
 Content-Type: text/html; charset=UTF-8
 
-good job! ctfhub{d07f2637f17606dcc985129a}
+good job! ctfhub{8629ca73b815c43903728e01}
 ```
 
 用错方法时的响应（`-X CTFHub`）：
